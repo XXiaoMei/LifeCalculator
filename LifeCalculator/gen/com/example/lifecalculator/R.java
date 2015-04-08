@@ -24,10 +24,58 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static final int action_settings=0x7f080009;
+        public static final int button0=0x7f080006;
+        public static final int button1=0x7f080000;
+        public static final int button2=0x7f080001;
+        public static final int radio0=0x7f080004;
+        public static final int radio1=0x7f080005;
+        public static final int radio2=0x7f080007;
+        public static final int radio3=0x7f080008;
+        public static final int radioGroup1=0x7f080003;
+        public static final int textView1=0x7f080002;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int main1=0x7f030001;
+        public static final int main10=0x7f030002;
+        public static final int main11=0x7f030003;
+        public static final int main12=0x7f030004;
+        public static final int main13=0x7f030005;
+        public static final int main14=0x7f030006;
+        public static final int main15=0x7f030007;
+        public static final int main16=0x7f030008;
+        public static final int main17=0x7f030009;
+        public static final int main18=0x7f03000a;
+        public static final int main19=0x7f03000b;
+        public static final int main2=0x7f03000c;
+        public static final int main20=0x7f03000d;
+        public static final int main21=0x7f03000e;
+        public static final int main22=0x7f03000f;
+        public static final int main23=0x7f030010;
+        public static final int main24=0x7f030011;
+        public static final int main25=0x7f030012;
+        public static final int main26=0x7f030013;
+        public static final int main27=0x7f030014;
+        public static final int main28=0x7f030015;
+        public static final int main29=0x7f030016;
+        public static final int main3=0x7f030017;
+        public static final int main30=0x7f030018;
+        public static final int main31=0x7f030019;
+        public static final int main32=0x7f03001a;
+        public static final int main33=0x7f03001b;
+        public static final int main34=0x7f03001c;
+        public static final int main35=0x7f03001d;
+        public static final int main36=0x7f03001e;
+        public static final int main37=0x7f03001f;
+        public static final int main38=0x7f030020;
+        public static final int main39=0x7f030021;
+        public static final int main4=0x7f030022;
+        public static final int main5=0x7f030023;
+        public static final int main6=0x7f030024;
+        public static final int main7=0x7f030025;
+        public static final int main8=0x7f030026;
+        public static final int main9=0x7f030027;
     }
     public static final class menu {
         public static final int main=0x7f070000;
