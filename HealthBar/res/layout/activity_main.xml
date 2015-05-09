@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCE198"
+    android:orientation="vertical" >
+    <!-- 第一行放置返回图标和题目 -->
+    <FrameLayout 
+        android:id="@+id/flayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8FC31F"
+        android:paddingLeft="10px">
+        <!-- 左侧垂直居中位置放置返回图片-->
+        <ImageView 
+            android:layout_width="45px"
+            android:layout_height="35px"
+            android:src="@drawable/title_bar_menu"
+            android:layout_gravity="left|center_vertical"/>
+        <!-- 居中位置放置 页面标题：Health Bar-->
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:text="Health Bar"
+           android:textColor="#FFFFFF"
+           android:textSize="18dip"/>"
+    </FrameLayout>
+</LinearLayout>
