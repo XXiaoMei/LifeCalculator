@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/registerTab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <EditText 
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"/>
+    <EditText 
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="请输入密码"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择性别"
+        android:textSize="20sp"/>
+    <RadioGroup android:id="@+id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/male"           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:checked="true"
+            android:text="男"/>
+        <RadioButton android:id="@+id/female"           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="女"/>   
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择出生年月日"
+        android:textSize="20sp"/>
+    <DatePicker android:id="@+id/datePicker"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/> 
+    <TextView
+        android:id="@+id/showTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+    <Button 
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8FC31F"
+        android:text="注册"
+        android:onClick="myclick"/>
+</LinearLayout>
