@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#CCE198">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+      
+        >
+        <LinearLayout 
+            android:layout_width="wrap_content"
+           	android:layout_height="match_parent"
+           	android:padding="2dp"
+           	android:gravity="center"
+            >
+            <ImageView 
+                android:id="@+id/experienceListImg"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                
+                />
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/experienceListTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               	android:textSize="15sp"
+               	android:layout_marginTop="10dp"
+               	android:text="适量的紫外线能促进钙质的吸收，对预防骨质疏松、佝偻病有好处，但过量的紫外线会大大增加患皮肤癌的危险，还会增加皱纹。"          	
+                android:textColor="#000000"/>
+            <TextView 
+                android:id="@+id/experienceListDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:layout_marginTop="5dp"
+                android:text="2014-11-13"
+                android:textColor="#000000"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+	
+</RelativeLayout>
